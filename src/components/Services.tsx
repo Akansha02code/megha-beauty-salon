@@ -1,12 +1,9 @@
 import { motion } from 'framer-motion';
-import { Scissors, Droplet, Sparkles, Heart, Star, Sun, Shield, Flower2 } from 'lucide-react';
+import {  Droplet, Star, Sun, Shield, Flower2 } from 'lucide-react';
 
 const services = [
-  { icon: Scissors, title: 'Hair Styling', desc: 'Expert cuts, blowouts, and advanced styling.' },
   { icon: Droplet, title: 'Hair Color & Spa', desc: 'Premium coloring, highlights, and nourishing spa treatments.' },
   { icon: Star, title: 'Bridal Makeup', desc: 'Flawless, long-lasting bridal looks for your special day.' },
-  { icon: Sparkles, title: 'Skin Treatments', desc: 'Advanced facials and clinical medispa skin care.' },
-  { icon: Heart, title: 'Manicure & Pedicure', desc: 'Luxury nail care for perfectly groomed hands and feet.' },
   { icon: Sun, title: 'Waxing & Threading', desc: 'Gentle, hygienic hair removal solutions.' },
 ];
 
